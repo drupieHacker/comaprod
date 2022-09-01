@@ -1,0 +1,118 @@
+.encabezado{
+background-color: #feca57;
+display: flex;
+justify-content: space-around;
+padding:10px;
+}
+.encabezado h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fafafa;
+}
+body{
+    background-image: url(../../images/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 90%;
+    margin:100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .contendorArt{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 30px;
+   
+}
+.container .contendorArt form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    margin-right: 10%;
+    border-radius: 10px;
+
+}
+.container .contendorArt form input{
+  border: none;
+  text-align: center;
+  padding: 10px;
+  background-color:rgba(255, 255, 255,0.8);
+  margin-top: 10px;
+}
+.container .contendorArt form p{
+   width: 90%;
+   height: 150px;
+   margin: 0 auto;
+   margin-top: 30px;
+   background-color: transparent;
+   margin-bottom: 10px;
+   padding: 10px;
+   text-align: justify;
+   background-color:rgba(255, 255, 255,0.8);
+  }
+
+  .container .contendorArt form input[type="submit"]{
+background-color: #feca57;
+width: 80%;
+margin: 0 auto;
+margin-bottom: 50px;
+color: #fafafa;
+transition: all 0.5s;
+   }
+   .container .contendorArt form input[type="submit"]:hover{
+    background-color: #be953d;
+    transition: all 0.5s;
+    cursor: pointer;
+       }
+.container .contendorArt form .invisible{
+    display: none;
+}
+.container .contendorPag{
+    width: 100%;
+}
+#paginas{
+    width: 50%;margin: 0 auto;
+}
+#paginas ul{
+    margin: 10px 0;
+    padding: 0;
+}
+#paginas li{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+#paginas li a{
+    background: rgb(228, 228, 228);
+    border-radius: 3px;
+    color: rgb(50, 50, 50);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.actual{
+    background:#feca57 !important;
+    color: rgb(255, 255, 255) !important;
+}
+@media only screen and (max-width : 900px) {
+
+    .container .contendorArt{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+       flex-wrap: wrap;
+    }
+    .container .contendorPag{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }#paginas{
+        width: 100%;
+    }
+}

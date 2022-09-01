@@ -1,0 +1,6 @@
+[12-Jul-2022 17:19:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/seguri29/public_html/app/tutorial/peliculas.php:24
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial/peliculas.php(21): Peliculas->calcularPaginas()
+#1 /home/seguri29/public_html/app/tutorial/index.php(95): Peliculas->__construct(3)
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial/peliculas.php on line 24

@@ -1,0 +1,154 @@
+[12-Jul-2022 17:19:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/seguri29/public_html/app/tutorial/peliculas.php:24
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial/peliculas.php(21): Peliculas->calcularPaginas()
+#1 /home/seguri29/public_html/app/tutorial/index.php(95): Peliculas->__construct(3)
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial/peliculas.php on line 24
+[13-Jul-2022 11:40:08 America/Mexico_City] PHP Notice:  Undefined index: date in /home/seguri29/public_html/app/tutorial2/vista-pelicula.php on line 7
+[13-Jul-2022 11:40:08 America/Mexico_City] PHP Notice:  Undefined index: description in /home/seguri29/public_html/app/tutorial2/vista-pelicula.php on line 8
+[13-Jul-2022 11:43:54 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:45:03 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id_articles=16' at line 1 in /home/seguri29/public_html/app/tutorial2/peliculas.php:51
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(51): PDO->prepare('SELECT * FROM a...')
+#1 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 51
+[13-Jul-2022 11:46:01 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id_articles=16' at line 1 in /home/seguri29/public_html/app/tutorial2/peliculas.php:51
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(51): PDO->prepare('SELECT * FROM a...')
+#1 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 51
+[13-Jul-2022 11:46:57 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id_articles=16' at line 1 in /home/seguri29/public_html/app/tutorial2/peliculas.php:51
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(51): PDO->prepare('SELECT * FROM a...')
+#1 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 51
+[13-Jul-2022 11:46:58 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id_articles=16' at line 1 in /home/seguri29/public_html/app/tutorial2/peliculas.php:51
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(51): PDO->prepare('SELECT * FROM a...')
+#1 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 51
+[13-Jul-2022 11:46:58 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id_articles=16' at line 1 in /home/seguri29/public_html/app/tutorial2/peliculas.php:51
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(51): PDO->prepare('SELECT * FROM a...')
+#1 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 51
+[13-Jul-2022 11:47:36 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:47:36 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:47:37 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:47:37 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:47:37 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:47:38 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:48:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Peliculas::calcularPaginas() in /home/seguri29/public_html/app/tutorial2/peliculas.php:21
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(95): Peliculas->__construct(1)
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 21
+[13-Jul-2022 11:48:28 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Peliculas::calcularPaginas() in /home/seguri29/public_html/app/tutorial2/peliculas.php:21
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(95): Peliculas->__construct(1)
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 21
+[13-Jul-2022 11:48:55 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:18
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 18
+[13-Jul-2022 11:49:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Peliculas::mostrarPeliculas() in /home/seguri29/public_html/app/tutorial2/index.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/index.php on line 102
+[13-Jul-2022 11:51:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Peliculas::calcularPaginas() in /home/seguri29/public_html/app/tutorial2/peliculas.php:21
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(95): Peliculas->__construct(1)
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 21
+[13-Jul-2022 11:51:26 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Peliculas::calcularPaginas() in /home/seguri29/public_html/app/tutorial2/peliculas.php:21
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(95): Peliculas->__construct(1)
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 21
+[13-Jul-2022 11:52:32 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:52:40 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:52:41 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[]: <<Unknown error>> in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:53:04 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:53:05 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 11:54:09 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/seguri29/public_html/app/tutorial2/peliculas.php:53
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 53
+[13-Jul-2022 12:39:46 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pos' in 'where clause' in /home/seguri29/public_html/app/tutorial2/peliculas.php:51
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(51): PDO->prepare('SELECT * FROM a...')
+#1 /home/seguri29/public_html/app/tutorial2/index.php(102): Peliculas->mostrarPeliculas()
+#2 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 51
+[13-Jul-2022 12:49:14 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dbuser'@'localhost' (using password: YES) in /home/seguri29/public_html/app/tutorial2/peliculas.php:8
+Stack trace:
+#0 /home/seguri29/public_html/app/tutorial2/peliculas.php(8): PDO->__construct('mysql:host=loca...', 'dbuser', 'password', Array)
+#1 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 8
+[13-Jul-2022 14:04:18 America/Mexico_City] PHP Notice:  Undefined index: id_article in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 2
+[13-Jul-2022 14:04:18 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Peliculas' not found in /home/seguri29/public_html/app/tutorial2/index.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/index.php on line 95
+[13-Jul-2022 14:04:23 America/Mexico_City] PHP Notice:  Undefined index: id_article in /home/seguri29/public_html/app/tutorial2/peliculas.php on line 2
+[13-Jul-2022 14:04:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'Peliculas' not found in /home/seguri29/public_html/app/tutorial2/index.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/seguri29/public_html/app/tutorial2/index.php on line 95
+[25-Aug-2022 22:49:15 America/Mexico_City] PHP Warning:  Undefined array key "id_article" in /home3/editor53/public_html/hallazgos/view/tutorial2/peliculas.php on line 98

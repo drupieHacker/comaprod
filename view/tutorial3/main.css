@@ -1,0 +1,85 @@
+.container{
+    width: 90%;
+    margin:100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .contendorArt{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.container .contendorArt form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contendorArt form input{
+  border: none;
+  text-align: center;
+  padding: 10px;
+}
+.container .contendorArt form p{
+   width: 90%;
+   height: 200px;
+   margin: 0 auto;
+  }
+
+  .container .contendorArt form input[type="submit"]{
+background-color: #3498bd;
+width: 80%;
+margin: 0 auto;
+border-radius: 30px;
+   }
+
+.container .contendorArt form .invisible{
+    display: none;
+}
+.container .contendorPag{
+    width: 100%;
+}
+#paginas{
+    width: 50%;margin: 0 auto;
+}
+#paginas ul{
+    margin: 10px 0;
+    padding: 0;
+}
+#paginas li{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+#paginas li a{
+    background: rgb(228, 228, 228);
+    border-radius: 3px;
+    color: rgb(50, 50, 50);
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.actual{
+    background: rgb(20, 69, 124) !important;
+    color: rgb(255, 255, 255) !important;
+}
+@media only screen and (max-width : 900px) {
+
+    .container .contendorArt{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+       flex-wrap: wrap;
+    }
+    .container .contendorPag{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }#paginas{
+        width: 100%;
+    }
+}
